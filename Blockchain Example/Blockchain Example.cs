@@ -102,7 +102,7 @@ namespace Blockchain_Example
 
         private void txtt2Hash_TextChanged(object sender, EventArgs e)
         {
-            if (txtt2Hash.Text.StartsWith("0000"))
+            if (txtt2Hash.Text.StartsWith("000"))
             {
                 txtt2Hash.BackColor = Color.LightGreen;
             }
@@ -116,7 +116,7 @@ namespace Blockchain_Example
         {
             txtt2Nonce.Text = "0";
 
-            while (!GetHash(txtt2Nonce.Text + "|" + txtt2Data.Text).StartsWith("0000"))
+            while (!GetHash(txtt2Nonce.Text + "|" + txtt2Data.Text).StartsWith("000"))
             {
                 int Nonce = int.Parse(txtt2Nonce.Text) + 1;
 
@@ -138,7 +138,7 @@ namespace Blockchain_Example
 
         private void txtt3Hash_TextChanged(object sender, EventArgs e)
         {
-            if (txtt3Hash.Text.StartsWith("0000"))
+            if (txtt3Hash.Text.StartsWith("000"))
             {
                 txtt3Hash.BackColor = Color.LightGreen;
             }
@@ -152,7 +152,7 @@ namespace Blockchain_Example
         {
             txtt3Nonce.Text = "0";
 
-            while (!GetHash(txtt3BlockId.Text + "|" + txtt3Nonce.Text + "|" + txtt3Data.Text).StartsWith("0000"))
+            while (!GetHash(txtt3BlockId.Text + "|" + txtt3Nonce.Text + "|" + txtt3Data.Text).StartsWith("000"))
             {
                 int Nonce = int.Parse(txtt3Nonce.Text) + 1;
 
@@ -174,7 +174,7 @@ namespace Blockchain_Example
 
         private void txtt4PrevHash1_TextChanged(object sender, EventArgs e)
         {
-            if (txtt4PrevHash1.Text.StartsWith("0000"))
+            if (txtt4PrevHash1.Text.StartsWith("000"))
             {
                 txtt4PrevHash1.BackColor = Color.LightGreen;
             }
@@ -188,7 +188,7 @@ namespace Blockchain_Example
 
         private void txtt4Hash1_TextChanged(object sender, EventArgs e)
         {
-            if (txtt4Hash1.Text.StartsWith("0000"))
+            if (txtt4Hash1.Text.StartsWith("000"))
             {
                 txtt4Hash1.BackColor = Color.LightGreen;
             }
@@ -204,7 +204,7 @@ namespace Blockchain_Example
         {
             txtt4Nonce1.Text = "0";
 
-            while (!GetHash(txtt4BlockId1.Text + "|" + txtt4Nonce1.Text + "|" + txtt4Data1.Text + "|" + txtt4PrevHash1.Text).StartsWith("0000"))
+            while (!GetHash(txtt4BlockId1.Text + "|" + txtt4Nonce1.Text + "|" + txtt4Data1.Text + "|" + txtt4PrevHash1.Text).StartsWith("000"))
             {
                 int Nonce = int.Parse(txtt4Nonce1.Text) + 1;
 
@@ -226,7 +226,7 @@ namespace Blockchain_Example
 
         private void txtt4PrevHash2_TextChanged(object sender, EventArgs e)
         {
-            if (txtt4PrevHash2.Text.StartsWith("0000"))
+            if (txtt4PrevHash2.Text.StartsWith("000"))
             {
                 txtt4PrevHash2.BackColor = Color.LightGreen;
             }
@@ -240,7 +240,7 @@ namespace Blockchain_Example
 
         private void txtt4Hash2_TextChanged(object sender, EventArgs e)
         {
-            if (txtt4Hash2.Text.StartsWith("0000"))
+            if (txtt4Hash2.Text.StartsWith("000"))
             {
                 txtt4Hash2.BackColor = Color.LightGreen;
             }
@@ -256,7 +256,7 @@ namespace Blockchain_Example
         {
             txtt4Nonce2.Text = "0";
 
-            while (!GetHash(txtt4BlockId2.Text + "|" + txtt4Nonce2.Text + "|" + txtt4Data2.Text + "|" + txtt4PrevHash2.Text).StartsWith("0000"))
+            while (!GetHash(txtt4BlockId2.Text + "|" + txtt4Nonce2.Text + "|" + txtt4Data2.Text + "|" + txtt4PrevHash2.Text).StartsWith("000"))
             {
                 int Nonce = int.Parse(txtt4Nonce2.Text) + 1;
 
@@ -278,7 +278,7 @@ namespace Blockchain_Example
 
         private void txtt4PrevHash3_TextChanged(object sender, EventArgs e)
         {
-            if (txtt4PrevHash3.Text.StartsWith("0000"))
+            if (txtt4PrevHash3.Text.StartsWith("000"))
             {
                 txtt4PrevHash3.BackColor = Color.LightGreen;
             }
@@ -292,7 +292,7 @@ namespace Blockchain_Example
 
         private void txtt4Hash3_TextChanged(object sender, EventArgs e)
         {
-            if (txtt4Hash3.Text.StartsWith("0000"))
+            if (txtt4Hash3.Text.StartsWith("000"))
             {
                 txtt4Hash3.BackColor = Color.LightGreen;
             }
@@ -306,7 +306,7 @@ namespace Blockchain_Example
         {
             txtt4Nonce3.Text = "0";
 
-            while (!GetHash(txtt4BlockId3.Text + "|" + txtt4Nonce3.Text + "|" + txtt4Data3.Text + "|" + txtt4PrevHash3.Text).StartsWith("0000"))
+            while (!GetHash(txtt4BlockId3.Text + "|" + txtt4Nonce3.Text + "|" + txtt4Data3.Text + "|" + txtt4PrevHash3.Text).StartsWith("000"))
             {
                 int Nonce = int.Parse(txtt4Nonce3.Text) + 1;
 
@@ -328,7 +328,7 @@ namespace Blockchain_Example
 
         private void txtt5gAHash1_TextChanged(object sender, EventArgs e)
         {
-            if (txtt5gAHash1.Text.StartsWith("0000"))
+            if (txtt5gAHash1.Text.StartsWith("000"))
             {
                 txtt5gAHash1.BackColor = Color.LightGreen;
             }
@@ -344,7 +344,7 @@ namespace Blockchain_Example
         {
             txtt5gANonce1.Text = "0";
 
-            while (!GetHash(txtt5gABlockId1.Text + "|" + txtt5gANonce1.Text + "|" + txtt5gAData1.Text + "|" + txtt5gAPrevHash1.Text).StartsWith("0000"))
+            while (!GetHash(txtt5gABlockId1.Text + "|" + txtt5gANonce1.Text + "|" + txtt5gAData1.Text + "|" + txtt5gAPrevHash1.Text).StartsWith("000"))
             {
                 int Nonce = int.Parse(txtt5gANonce1.Text) + 1;
 
@@ -366,7 +366,7 @@ namespace Blockchain_Example
 
         private void txtt5gAPrevHash2_TextChanged(object sender, EventArgs e)
         {
-            if (txtt5gAPrevHash2.Text.StartsWith("0000"))
+            if (txtt5gAPrevHash2.Text.StartsWith("000"))
             {
                 txtt5gAPrevHash2.BackColor = Color.LightGreen;
             }
@@ -380,7 +380,7 @@ namespace Blockchain_Example
 
         private void txtt5gAHash2_TextChanged(object sender, EventArgs e)
         {
-            if (txtt5gAHash2.Text.StartsWith("0000"))
+            if (txtt5gAHash2.Text.StartsWith("000"))
             {
                 txtt5gAHash2.BackColor = Color.LightGreen;
             }
@@ -396,7 +396,7 @@ namespace Blockchain_Example
         {
             txtt5gANonce2.Text = "0";
 
-            while (!GetHash(txtt5gABlockId2.Text + "|" + txtt5gANonce2.Text + "|" + txtt5gAData2.Text + "|" + txtt5gAPrevHash2.Text).StartsWith("0000"))
+            while (!GetHash(txtt5gABlockId2.Text + "|" + txtt5gANonce2.Text + "|" + txtt5gAData2.Text + "|" + txtt5gAPrevHash2.Text).StartsWith("000"))
             {
                 int Nonce = int.Parse(txtt5gANonce2.Text) + 1;
 
@@ -418,7 +418,7 @@ namespace Blockchain_Example
 
         private void txtt5gAPrevHash3_TextChanged(object sender, EventArgs e)
         {
-            if (txtt5gAPrevHash3.Text.StartsWith("0000"))
+            if (txtt5gAPrevHash3.Text.StartsWith("000"))
             {
                 txtt5gAPrevHash3.BackColor = Color.LightGreen;
             }
@@ -432,7 +432,7 @@ namespace Blockchain_Example
 
         private void txtt5gAHash3_TextChanged(object sender, EventArgs e)
         {
-            if (txtt5gAHash3.Text.StartsWith("0000"))
+            if (txtt5gAHash3.Text.StartsWith("000"))
             {
                 txtt5gAHash3.BackColor = Color.LightGreen;
             }
@@ -448,7 +448,7 @@ namespace Blockchain_Example
         {
             txtt5gANonce3.Text = "0";
 
-            while (!GetHash(txtt5gABlockId3.Text + "|" + txtt5gANonce3.Text + "|" + txtt5gAData3.Text + "|" + txtt5gAPrevHash3.Text).StartsWith("0000"))
+            while (!GetHash(txtt5gABlockId3.Text + "|" + txtt5gANonce3.Text + "|" + txtt5gAData3.Text + "|" + txtt5gAPrevHash3.Text).StartsWith("000"))
             {
                 int Nonce = int.Parse(txtt5gANonce3.Text) + 1;
 
@@ -470,7 +470,7 @@ namespace Blockchain_Example
 
         private void txtt5gBHash1_TextChanged(object sender, EventArgs e)
         {
-            if (txtt5gBHash1.Text.StartsWith("0000"))
+            if (txtt5gBHash1.Text.StartsWith("000"))
             {
                 txtt5gBHash1.BackColor = Color.LightGreen;
             }
@@ -486,7 +486,7 @@ namespace Blockchain_Example
         {
             txtt5gBNonce1.Text = "0";
 
-            while (!GetHash(txtt5gBBlockId1.Text + "|" + txtt5gBNonce1.Text + "|" + txtt5gBData1.Text + "|" + txtt5gBPrevHash1.Text).StartsWith("0000"))
+            while (!GetHash(txtt5gBBlockId1.Text + "|" + txtt5gBNonce1.Text + "|" + txtt5gBData1.Text + "|" + txtt5gBPrevHash1.Text).StartsWith("000"))
             {
                 int Nonce = int.Parse(txtt5gBNonce1.Text) + 1;
 
@@ -508,7 +508,7 @@ namespace Blockchain_Example
 
         private void txtt5gBPrevHash2_TextChanged(object sender, EventArgs e)
         {
-            if (txtt5gBPrevHash2.Text.StartsWith("0000"))
+            if (txtt5gBPrevHash2.Text.StartsWith("000"))
             {
                 txtt5gBPrevHash2.BackColor = Color.LightGreen;
             }
@@ -522,7 +522,7 @@ namespace Blockchain_Example
 
         private void txtt5gBHash2_TextChanged(object sender, EventArgs e)
         {
-            if (txtt5gBHash2.Text.StartsWith("0000"))
+            if (txtt5gBHash2.Text.StartsWith("000"))
             {
                 txtt5gBHash2.BackColor = Color.LightGreen;
             }
@@ -538,7 +538,7 @@ namespace Blockchain_Example
         {
             txtt5gBNonce2.Text = "0";
 
-            while (!GetHash(txtt5gBBlockId2.Text + "|" + txtt5gBNonce2.Text + "|" + txtt5gBData2.Text + "|" + txtt5gBPrevHash2.Text).StartsWith("0000"))
+            while (!GetHash(txtt5gBBlockId2.Text + "|" + txtt5gBNonce2.Text + "|" + txtt5gBData2.Text + "|" + txtt5gBPrevHash2.Text).StartsWith("000"))
             {
                 int Nonce = int.Parse(txtt5gBNonce2.Text) + 1;
 
@@ -560,7 +560,7 @@ namespace Blockchain_Example
 
         private void txtt5gBPrevHash3_TextChanged(object sender, EventArgs e)
         {
-            if (txtt5gBPrevHash3.Text.StartsWith("0000"))
+            if (txtt5gBPrevHash3.Text.StartsWith("000"))
             {
                 txtt5gBPrevHash3.BackColor = Color.LightGreen;
             }
@@ -574,7 +574,7 @@ namespace Blockchain_Example
 
         private void txtt5gBHash3_TextChanged(object sender, EventArgs e)
         {
-            if (txtt5gBHash3.Text.StartsWith("0000"))
+            if (txtt5gBHash3.Text.StartsWith("000"))
             {
                 txtt5gBHash3.BackColor = Color.LightGreen;
             }
@@ -590,7 +590,7 @@ namespace Blockchain_Example
         {
             txtt5gBNonce3.Text = "0";
 
-            while (!GetHash(txtt5gBBlockId3.Text + "|" + txtt5gBNonce3.Text + "|" + txtt5gBData3.Text + "|" + txtt5gBPrevHash3.Text).StartsWith("0000"))
+            while (!GetHash(txtt5gBBlockId3.Text + "|" + txtt5gBNonce3.Text + "|" + txtt5gBData3.Text + "|" + txtt5gBPrevHash3.Text).StartsWith("000"))
             {
                 int Nonce = int.Parse(txtt5gBNonce3.Text) + 1;
 
@@ -612,7 +612,7 @@ namespace Blockchain_Example
 
         private void txtt5gCHash1_TextChanged(object sender, EventArgs e)
         {
-            if (txtt5gCHash1.Text.StartsWith("0000"))
+            if (txtt5gCHash1.Text.StartsWith("000"))
             {
                 txtt5gCHash1.BackColor = Color.LightGreen;
             }
@@ -628,7 +628,7 @@ namespace Blockchain_Example
         {
             txtt5gCNonce1.Text = "0";
 
-            while (!GetHash(txtt5gCBlockId1.Text + "|" + txtt5gCNonce1.Text + "|" + txtt5gCData1.Text + "|" + txtt5gCPrevHash1.Text).StartsWith("0000"))
+            while (!GetHash(txtt5gCBlockId1.Text + "|" + txtt5gCNonce1.Text + "|" + txtt5gCData1.Text + "|" + txtt5gCPrevHash1.Text).StartsWith("000"))
             {
                 int Nonce = int.Parse(txtt5gCNonce1.Text) + 1;
 
@@ -650,7 +650,7 @@ namespace Blockchain_Example
 
         private void txtt5gCPrevHash2_TextChanged(object sender, EventArgs e)
         {
-            if (txtt5gCPrevHash2.Text.StartsWith("0000"))
+            if (txtt5gCPrevHash2.Text.StartsWith("000"))
             {
                 txtt5gCPrevHash2.BackColor = Color.LightGreen;
             }
@@ -664,7 +664,7 @@ namespace Blockchain_Example
 
         private void txtt5gCHash2_TextChanged(object sender, EventArgs e)
         {
-            if (txtt5gCHash2.Text.StartsWith("0000"))
+            if (txtt5gCHash2.Text.StartsWith("000"))
             {
                 txtt5gCHash2.BackColor = Color.LightGreen;
             }
@@ -680,7 +680,7 @@ namespace Blockchain_Example
         {
             txtt5gCNonce2.Text = "0";
 
-            while (!GetHash(txtt5gCBlockId2.Text + "|" + txtt5gCNonce2.Text + "|" + txtt5gCData2.Text + "|" + txtt5gCPrevHash2.Text).StartsWith("0000"))
+            while (!GetHash(txtt5gCBlockId2.Text + "|" + txtt5gCNonce2.Text + "|" + txtt5gCData2.Text + "|" + txtt5gCPrevHash2.Text).StartsWith("000"))
             {
                 int Nonce = int.Parse(txtt5gCNonce2.Text) + 1;
 
@@ -702,7 +702,7 @@ namespace Blockchain_Example
 
         private void txtt5gCPrevHash3_TextChanged(object sender, EventArgs e)
         {
-            if (txtt5gCPrevHash3.Text.StartsWith("0000"))
+            if (txtt5gCPrevHash3.Text.StartsWith("000"))
             {
                 txtt5gCPrevHash3.BackColor = Color.LightGreen;
             }
@@ -716,7 +716,7 @@ namespace Blockchain_Example
 
         private void txtt5gCHash3_TextChanged(object sender, EventArgs e)
         {
-            if (txtt5gCHash3.Text.StartsWith("0000"))
+            if (txtt5gCHash3.Text.StartsWith("000"))
             {
                 txtt5gCHash3.BackColor = Color.LightGreen;
             }
@@ -732,7 +732,7 @@ namespace Blockchain_Example
         {
             txtt5gCNonce3.Text = "0";
 
-            while (!GetHash(txtt5gCBlockId3.Text + "|" + txtt5gCNonce3.Text + "|" + txtt5gCData3.Text + "|" + txtt5gCPrevHash3.Text).StartsWith("0000"))
+            while (!GetHash(txtt5gCBlockId3.Text + "|" + txtt5gCNonce3.Text + "|" + txtt5gCData3.Text + "|" + txtt5gCPrevHash3.Text).StartsWith("000"))
             {
                 int Nonce = int.Parse(txtt5gCNonce3.Text) + 1;
 
