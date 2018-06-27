@@ -209,7 +209,7 @@
             this.tabControl1.Controls.Add(this.tabPage5);
             this.tabControl1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tabControl1.Location = new System.Drawing.Point(6, 6);
-            this.tabControl1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tabControl1.Margin = new System.Windows.Forms.Padding(2);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
             this.tabControl1.Size = new System.Drawing.Size(1324, 929);
@@ -221,11 +221,11 @@
             this.tabPage1.Controls.Add(this.label2);
             this.tabPage1.Controls.Add(this.label1);
             this.tabPage1.Controls.Add(this.txtt1Data);
-            this.tabPage1.Location = new System.Drawing.Point(4, 29);
-            this.tabPage1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tabPage1.Location = new System.Drawing.Point(4, 22);
+            this.tabPage1.Margin = new System.Windows.Forms.Padding(2);
             this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.tabPage1.Size = new System.Drawing.Size(1316, 896);
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(2);
+            this.tabPage1.Size = new System.Drawing.Size(1316, 903);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Hashing";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -233,7 +233,7 @@
             // txtt1Hash
             // 
             this.txtt1Hash.Location = new System.Drawing.Point(6, 155);
-            this.txtt1Hash.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtt1Hash.Margin = new System.Windows.Forms.Padding(2);
             this.txtt1Hash.Name = "txtt1Hash";
             this.txtt1Hash.Size = new System.Drawing.Size(427, 20);
             this.txtt1Hash.TabIndex = 3;
@@ -261,7 +261,7 @@
             // txtt1Data
             // 
             this.txtt1Data.Location = new System.Drawing.Point(6, 16);
-            this.txtt1Data.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtt1Data.Margin = new System.Windows.Forms.Padding(2);
             this.txtt1Data.Multiline = true;
             this.txtt1Data.Name = "txtt1Data";
             this.txtt1Data.Size = new System.Drawing.Size(427, 115);
@@ -277,11 +277,11 @@
             this.tabPage2.Controls.Add(this.label4);
             this.tabPage2.Controls.Add(this.txtt2Nonce);
             this.tabPage2.Controls.Add(this.label3);
-            this.tabPage2.Location = new System.Drawing.Point(4, 29);
-            this.tabPage2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tabPage2.Location = new System.Drawing.Point(4, 22);
+            this.tabPage2.Margin = new System.Windows.Forms.Padding(2);
             this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.tabPage2.Size = new System.Drawing.Size(1316, 896);
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(2);
+            this.tabPage2.Size = new System.Drawing.Size(1316, 903);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Mining";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -289,7 +289,7 @@
             // btnt2Mine
             // 
             this.btnt2Mine.Location = new System.Drawing.Point(378, 244);
-            this.btnt2Mine.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnt2Mine.Margin = new System.Windows.Forms.Padding(2);
             this.btnt2Mine.Name = "btnt2Mine";
             this.btnt2Mine.Size = new System.Drawing.Size(55, 27);
             this.btnt2Mine.TabIndex = 6;
@@ -300,7 +300,7 @@
             // txtt2Hash
             // 
             this.txtt2Hash.Location = new System.Drawing.Point(6, 214);
-            this.txtt2Hash.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtt2Hash.Margin = new System.Windows.Forms.Padding(2);
             this.txtt2Hash.Name = "txtt2Hash";
             this.txtt2Hash.Size = new System.Drawing.Size(427, 20);
             this.txtt2Hash.TabIndex = 5;
@@ -319,7 +319,7 @@
             // txtt2Data
             // 
             this.txtt2Data.Location = new System.Drawing.Point(7, 74);
-            this.txtt2Data.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtt2Data.Margin = new System.Windows.Forms.Padding(2);
             this.txtt2Data.Multiline = true;
             this.txtt2Data.Name = "txtt2Data";
             this.txtt2Data.Size = new System.Drawing.Size(427, 116);
@@ -339,7 +339,7 @@
             // txtt2Nonce
             // 
             this.txtt2Nonce.Location = new System.Drawing.Point(6, 24);
-            this.txtt2Nonce.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtt2Nonce.Margin = new System.Windows.Forms.Padding(2);
             this.txtt2Nonce.Name = "txtt2Nonce";
             this.txtt2Nonce.Size = new System.Drawing.Size(79, 20);
             this.txtt2Nonce.TabIndex = 1;
@@ -366,10 +366,10 @@
             this.tabPage3.Controls.Add(this.label7);
             this.tabPage3.Controls.Add(this.txtt3Nonce);
             this.tabPage3.Controls.Add(this.label8);
-            this.tabPage3.Location = new System.Drawing.Point(4, 29);
-            this.tabPage3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tabPage3.Location = new System.Drawing.Point(4, 22);
+            this.tabPage3.Margin = new System.Windows.Forms.Padding(2);
             this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Size = new System.Drawing.Size(1316, 896);
+            this.tabPage3.Size = new System.Drawing.Size(1316, 903);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Single Block";
             this.tabPage3.UseVisualStyleBackColor = true;
@@ -377,7 +377,7 @@
             // txtt3BlockId
             // 
             this.txtt3BlockId.Location = new System.Drawing.Point(6, 24);
-            this.txtt3BlockId.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtt3BlockId.Margin = new System.Windows.Forms.Padding(2);
             this.txtt3BlockId.Name = "txtt3BlockId";
             this.txtt3BlockId.Size = new System.Drawing.Size(52, 20);
             this.txtt3BlockId.TabIndex = 15;
@@ -396,7 +396,7 @@
             // btnt3Mine
             // 
             this.btnt3Mine.Location = new System.Drawing.Point(377, 303);
-            this.btnt3Mine.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnt3Mine.Margin = new System.Windows.Forms.Padding(2);
             this.btnt3Mine.Name = "btnt3Mine";
             this.btnt3Mine.Size = new System.Drawing.Size(56, 28);
             this.btnt3Mine.TabIndex = 13;
@@ -407,7 +407,7 @@
             // txtt3Hash
             // 
             this.txtt3Hash.Location = new System.Drawing.Point(6, 273);
-            this.txtt3Hash.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtt3Hash.Margin = new System.Windows.Forms.Padding(2);
             this.txtt3Hash.Name = "txtt3Hash";
             this.txtt3Hash.Size = new System.Drawing.Size(427, 20);
             this.txtt3Hash.TabIndex = 12;
@@ -426,7 +426,7 @@
             // txtt3Data
             // 
             this.txtt3Data.Location = new System.Drawing.Point(6, 122);
-            this.txtt3Data.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtt3Data.Margin = new System.Windows.Forms.Padding(2);
             this.txtt3Data.Multiline = true;
             this.txtt3Data.Name = "txtt3Data";
             this.txtt3Data.Size = new System.Drawing.Size(427, 127);
@@ -446,7 +446,7 @@
             // txtt3Nonce
             // 
             this.txtt3Nonce.Location = new System.Drawing.Point(4, 72);
-            this.txtt3Nonce.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtt3Nonce.Margin = new System.Windows.Forms.Padding(2);
             this.txtt3Nonce.Name = "txtt3Nonce";
             this.txtt3Nonce.Size = new System.Drawing.Size(79, 20);
             this.txtt3Nonce.TabIndex = 8;
@@ -497,10 +497,10 @@
             this.tabPage4.Controls.Add(this.label12);
             this.tabPage4.Controls.Add(this.txtt4Nonce1);
             this.tabPage4.Controls.Add(this.label13);
-            this.tabPage4.Location = new System.Drawing.Point(4, 29);
-            this.tabPage4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tabPage4.Location = new System.Drawing.Point(4, 22);
+            this.tabPage4.Margin = new System.Windows.Forms.Padding(2);
             this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Size = new System.Drawing.Size(1316, 896);
+            this.tabPage4.Size = new System.Drawing.Size(1316, 903);
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "Multiple Blocks";
             this.tabPage4.UseVisualStyleBackColor = true;
@@ -508,7 +508,7 @@
             // txtt4PrevHash3
             // 
             this.txtt4PrevHash3.Location = new System.Drawing.Point(876, 227);
-            this.txtt4PrevHash3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtt4PrevHash3.Margin = new System.Windows.Forms.Padding(2);
             this.txtt4PrevHash3.Name = "txtt4PrevHash3";
             this.txtt4PrevHash3.Size = new System.Drawing.Size(427, 20);
             this.txtt4PrevHash3.TabIndex = 48;
@@ -527,7 +527,7 @@
             // txtt4BlockId3
             // 
             this.txtt4BlockId3.Location = new System.Drawing.Point(876, 16);
-            this.txtt4BlockId3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtt4BlockId3.Margin = new System.Windows.Forms.Padding(2);
             this.txtt4BlockId3.Name = "txtt4BlockId3";
             this.txtt4BlockId3.Size = new System.Drawing.Size(52, 20);
             this.txtt4BlockId3.TabIndex = 46;
@@ -546,7 +546,7 @@
             // btnt4Mine3
             // 
             this.btnt4Mine3.Location = new System.Drawing.Point(1251, 282);
-            this.btnt4Mine3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnt4Mine3.Margin = new System.Windows.Forms.Padding(2);
             this.btnt4Mine3.Name = "btnt4Mine3";
             this.btnt4Mine3.Size = new System.Drawing.Size(50, 20);
             this.btnt4Mine3.TabIndex = 44;
@@ -557,7 +557,7 @@
             // txtt4Hash3
             // 
             this.txtt4Hash3.Location = new System.Drawing.Point(876, 261);
-            this.txtt4Hash3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtt4Hash3.Margin = new System.Windows.Forms.Padding(2);
             this.txtt4Hash3.Name = "txtt4Hash3";
             this.txtt4Hash3.Size = new System.Drawing.Size(427, 20);
             this.txtt4Hash3.TabIndex = 43;
@@ -576,7 +576,7 @@
             // txtt4Data3
             // 
             this.txtt4Data3.Location = new System.Drawing.Point(876, 84);
-            this.txtt4Data3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtt4Data3.Margin = new System.Windows.Forms.Padding(2);
             this.txtt4Data3.Multiline = true;
             this.txtt4Data3.Name = "txtt4Data3";
             this.txtt4Data3.Size = new System.Drawing.Size(427, 127);
@@ -596,7 +596,7 @@
             // txtt4Nonce3
             // 
             this.txtt4Nonce3.Location = new System.Drawing.Point(876, 50);
-            this.txtt4Nonce3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtt4Nonce3.Margin = new System.Windows.Forms.Padding(2);
             this.txtt4Nonce3.Name = "txtt4Nonce3";
             this.txtt4Nonce3.Size = new System.Drawing.Size(79, 20);
             this.txtt4Nonce3.TabIndex = 39;
@@ -615,7 +615,7 @@
             // txtt4PrevHash2
             // 
             this.txtt4PrevHash2.Location = new System.Drawing.Point(440, 227);
-            this.txtt4PrevHash2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtt4PrevHash2.Margin = new System.Windows.Forms.Padding(2);
             this.txtt4PrevHash2.Name = "txtt4PrevHash2";
             this.txtt4PrevHash2.Size = new System.Drawing.Size(427, 20);
             this.txtt4PrevHash2.TabIndex = 37;
@@ -634,7 +634,7 @@
             // txtt4BlockId2
             // 
             this.txtt4BlockId2.Location = new System.Drawing.Point(440, 16);
-            this.txtt4BlockId2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtt4BlockId2.Margin = new System.Windows.Forms.Padding(2);
             this.txtt4BlockId2.Name = "txtt4BlockId2";
             this.txtt4BlockId2.Size = new System.Drawing.Size(52, 20);
             this.txtt4BlockId2.TabIndex = 35;
@@ -653,7 +653,7 @@
             // btnt4Mine2
             // 
             this.btnt4Mine2.Location = new System.Drawing.Point(816, 282);
-            this.btnt4Mine2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnt4Mine2.Margin = new System.Windows.Forms.Padding(2);
             this.btnt4Mine2.Name = "btnt4Mine2";
             this.btnt4Mine2.Size = new System.Drawing.Size(50, 20);
             this.btnt4Mine2.TabIndex = 33;
@@ -664,7 +664,7 @@
             // txtt4Hash2
             // 
             this.txtt4Hash2.Location = new System.Drawing.Point(440, 261);
-            this.txtt4Hash2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtt4Hash2.Margin = new System.Windows.Forms.Padding(2);
             this.txtt4Hash2.Name = "txtt4Hash2";
             this.txtt4Hash2.Size = new System.Drawing.Size(427, 20);
             this.txtt4Hash2.TabIndex = 32;
@@ -683,7 +683,7 @@
             // txtt4Data2
             // 
             this.txtt4Data2.Location = new System.Drawing.Point(440, 84);
-            this.txtt4Data2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtt4Data2.Margin = new System.Windows.Forms.Padding(2);
             this.txtt4Data2.Multiline = true;
             this.txtt4Data2.Name = "txtt4Data2";
             this.txtt4Data2.Size = new System.Drawing.Size(427, 127);
@@ -703,7 +703,7 @@
             // txtt4Nonce2
             // 
             this.txtt4Nonce2.Location = new System.Drawing.Point(440, 50);
-            this.txtt4Nonce2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtt4Nonce2.Margin = new System.Windows.Forms.Padding(2);
             this.txtt4Nonce2.Name = "txtt4Nonce2";
             this.txtt4Nonce2.Size = new System.Drawing.Size(79, 20);
             this.txtt4Nonce2.TabIndex = 28;
@@ -722,7 +722,7 @@
             // txtt4PrevHash1
             // 
             this.txtt4PrevHash1.Location = new System.Drawing.Point(4, 227);
-            this.txtt4PrevHash1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtt4PrevHash1.Margin = new System.Windows.Forms.Padding(2);
             this.txtt4PrevHash1.Name = "txtt4PrevHash1";
             this.txtt4PrevHash1.Size = new System.Drawing.Size(427, 20);
             this.txtt4PrevHash1.TabIndex = 26;
@@ -742,7 +742,7 @@
             // txtt4BlockId1
             // 
             this.txtt4BlockId1.Location = new System.Drawing.Point(4, 16);
-            this.txtt4BlockId1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtt4BlockId1.Margin = new System.Windows.Forms.Padding(2);
             this.txtt4BlockId1.Name = "txtt4BlockId1";
             this.txtt4BlockId1.Size = new System.Drawing.Size(52, 20);
             this.txtt4BlockId1.TabIndex = 24;
@@ -761,7 +761,7 @@
             // btnt4Mine1
             // 
             this.btnt4Mine1.Location = new System.Drawing.Point(380, 282);
-            this.btnt4Mine1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnt4Mine1.Margin = new System.Windows.Forms.Padding(2);
             this.btnt4Mine1.Name = "btnt4Mine1";
             this.btnt4Mine1.Size = new System.Drawing.Size(50, 20);
             this.btnt4Mine1.TabIndex = 22;
@@ -772,7 +772,7 @@
             // txtt4Hash1
             // 
             this.txtt4Hash1.Location = new System.Drawing.Point(4, 261);
-            this.txtt4Hash1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtt4Hash1.Margin = new System.Windows.Forms.Padding(2);
             this.txtt4Hash1.Name = "txtt4Hash1";
             this.txtt4Hash1.Size = new System.Drawing.Size(427, 20);
             this.txtt4Hash1.TabIndex = 21;
@@ -791,7 +791,7 @@
             // txtt4Data1
             // 
             this.txtt4Data1.Location = new System.Drawing.Point(4, 84);
-            this.txtt4Data1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtt4Data1.Margin = new System.Windows.Forms.Padding(2);
             this.txtt4Data1.Multiline = true;
             this.txtt4Data1.Name = "txtt4Data1";
             this.txtt4Data1.Size = new System.Drawing.Size(427, 127);
@@ -811,7 +811,7 @@
             // txtt4Nonce1
             // 
             this.txtt4Nonce1.Location = new System.Drawing.Point(4, 50);
-            this.txtt4Nonce1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtt4Nonce1.Margin = new System.Windows.Forms.Padding(2);
             this.txtt4Nonce1.Name = "txtt4Nonce1";
             this.txtt4Nonce1.Size = new System.Drawing.Size(79, 20);
             this.txtt4Nonce1.TabIndex = 17;
@@ -833,7 +833,7 @@
             this.tabPage5.Controls.Add(this.grpB);
             this.tabPage5.Controls.Add(this.grpA);
             this.tabPage5.Location = new System.Drawing.Point(4, 22);
-            this.tabPage5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tabPage5.Margin = new System.Windows.Forms.Padding(2);
             this.tabPage5.Name = "tabPage5";
             this.tabPage5.Size = new System.Drawing.Size(1316, 903);
             this.tabPage5.TabIndex = 4;
@@ -876,9 +876,9 @@
             this.grpC.Controls.Add(this.txtt5gCNonce1);
             this.grpC.Controls.Add(this.label84);
             this.grpC.Location = new System.Drawing.Point(1, 596);
-            this.grpC.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.grpC.Margin = new System.Windows.Forms.Padding(2);
             this.grpC.Name = "grpC";
-            this.grpC.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.grpC.Padding = new System.Windows.Forms.Padding(2);
             this.grpC.Size = new System.Drawing.Size(1308, 294);
             this.grpC.TabIndex = 116;
             this.grpC.TabStop = false;
@@ -887,7 +887,7 @@
             // txtt5gCPrevHash3
             // 
             this.txtt5gCPrevHash3.Location = new System.Drawing.Point(877, 214);
-            this.txtt5gCPrevHash3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtt5gCPrevHash3.Margin = new System.Windows.Forms.Padding(2);
             this.txtt5gCPrevHash3.Name = "txtt5gCPrevHash3";
             this.txtt5gCPrevHash3.Size = new System.Drawing.Size(427, 20);
             this.txtt5gCPrevHash3.TabIndex = 114;
@@ -906,7 +906,7 @@
             // txtt5gCBlockId3
             // 
             this.txtt5gCBlockId3.Location = new System.Drawing.Point(877, 28);
-            this.txtt5gCBlockId3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtt5gCBlockId3.Margin = new System.Windows.Forms.Padding(2);
             this.txtt5gCBlockId3.Name = "txtt5gCBlockId3";
             this.txtt5gCBlockId3.Size = new System.Drawing.Size(52, 20);
             this.txtt5gCBlockId3.TabIndex = 112;
@@ -925,7 +925,7 @@
             // btnt5gCMine3
             // 
             this.btnt5gCMine3.Location = new System.Drawing.Point(1252, 270);
-            this.btnt5gCMine3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnt5gCMine3.Margin = new System.Windows.Forms.Padding(2);
             this.btnt5gCMine3.Name = "btnt5gCMine3";
             this.btnt5gCMine3.Size = new System.Drawing.Size(50, 20);
             this.btnt5gCMine3.TabIndex = 110;
@@ -936,7 +936,7 @@
             // txtt5gCHash3
             // 
             this.txtt5gCHash3.Location = new System.Drawing.Point(877, 248);
-            this.txtt5gCHash3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtt5gCHash3.Margin = new System.Windows.Forms.Padding(2);
             this.txtt5gCHash3.Name = "txtt5gCHash3";
             this.txtt5gCHash3.Size = new System.Drawing.Size(427, 20);
             this.txtt5gCHash3.TabIndex = 109;
@@ -955,7 +955,7 @@
             // txtt5gCData3
             // 
             this.txtt5gCData3.Location = new System.Drawing.Point(877, 96);
-            this.txtt5gCData3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtt5gCData3.Margin = new System.Windows.Forms.Padding(2);
             this.txtt5gCData3.Multiline = true;
             this.txtt5gCData3.Name = "txtt5gCData3";
             this.txtt5gCData3.Size = new System.Drawing.Size(427, 102);
@@ -976,11 +976,11 @@
             // txtt5gCNonce3
             // 
             this.txtt5gCNonce3.Location = new System.Drawing.Point(877, 62);
-            this.txtt5gCNonce3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtt5gCNonce3.Margin = new System.Windows.Forms.Padding(2);
             this.txtt5gCNonce3.Name = "txtt5gCNonce3";
             this.txtt5gCNonce3.Size = new System.Drawing.Size(79, 20);
             this.txtt5gCNonce3.TabIndex = 105;
-            this.txtt5gCNonce3.Text = "95598";
+            this.txtt5gCNonce3.Text = "13328";
             // 
             // label74
             // 
@@ -995,7 +995,7 @@
             // txtt5gCPrevHash2
             // 
             this.txtt5gCPrevHash2.Location = new System.Drawing.Point(442, 214);
-            this.txtt5gCPrevHash2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtt5gCPrevHash2.Margin = new System.Windows.Forms.Padding(2);
             this.txtt5gCPrevHash2.Name = "txtt5gCPrevHash2";
             this.txtt5gCPrevHash2.Size = new System.Drawing.Size(427, 20);
             this.txtt5gCPrevHash2.TabIndex = 103;
@@ -1014,7 +1014,7 @@
             // txtt5gCBlockId2
             // 
             this.txtt5gCBlockId2.Location = new System.Drawing.Point(442, 28);
-            this.txtt5gCBlockId2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtt5gCBlockId2.Margin = new System.Windows.Forms.Padding(2);
             this.txtt5gCBlockId2.Name = "txtt5gCBlockId2";
             this.txtt5gCBlockId2.Size = new System.Drawing.Size(52, 20);
             this.txtt5gCBlockId2.TabIndex = 101;
@@ -1033,7 +1033,7 @@
             // btnt5gCMine2
             // 
             this.btnt5gCMine2.Location = new System.Drawing.Point(816, 270);
-            this.btnt5gCMine2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnt5gCMine2.Margin = new System.Windows.Forms.Padding(2);
             this.btnt5gCMine2.Name = "btnt5gCMine2";
             this.btnt5gCMine2.Size = new System.Drawing.Size(50, 20);
             this.btnt5gCMine2.TabIndex = 99;
@@ -1044,7 +1044,7 @@
             // txtt5gCHash2
             // 
             this.txtt5gCHash2.Location = new System.Drawing.Point(442, 248);
-            this.txtt5gCHash2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtt5gCHash2.Margin = new System.Windows.Forms.Padding(2);
             this.txtt5gCHash2.Name = "txtt5gCHash2";
             this.txtt5gCHash2.Size = new System.Drawing.Size(427, 20);
             this.txtt5gCHash2.TabIndex = 98;
@@ -1063,7 +1063,7 @@
             // txtt5gCData2
             // 
             this.txtt5gCData2.Location = new System.Drawing.Point(442, 96);
-            this.txtt5gCData2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtt5gCData2.Margin = new System.Windows.Forms.Padding(2);
             this.txtt5gCData2.Multiline = true;
             this.txtt5gCData2.Name = "txtt5gCData2";
             this.txtt5gCData2.Size = new System.Drawing.Size(427, 102);
@@ -1085,11 +1085,11 @@
             // txtt5gCNonce2
             // 
             this.txtt5gCNonce2.Location = new System.Drawing.Point(442, 62);
-            this.txtt5gCNonce2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtt5gCNonce2.Margin = new System.Windows.Forms.Padding(2);
             this.txtt5gCNonce2.Name = "txtt5gCNonce2";
             this.txtt5gCNonce2.Size = new System.Drawing.Size(79, 20);
             this.txtt5gCNonce2.TabIndex = 94;
-            this.txtt5gCNonce2.Text = "52452";
+            this.txtt5gCNonce2.Text = "1236";
             // 
             // label79
             // 
@@ -1104,7 +1104,7 @@
             // txtt5gCPrevHash1
             // 
             this.txtt5gCPrevHash1.Location = new System.Drawing.Point(6, 214);
-            this.txtt5gCPrevHash1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtt5gCPrevHash1.Margin = new System.Windows.Forms.Padding(2);
             this.txtt5gCPrevHash1.Name = "txtt5gCPrevHash1";
             this.txtt5gCPrevHash1.Size = new System.Drawing.Size(427, 20);
             this.txtt5gCPrevHash1.TabIndex = 92;
@@ -1123,7 +1123,7 @@
             // txtt5gCBlockId1
             // 
             this.txtt5gCBlockId1.Location = new System.Drawing.Point(6, 28);
-            this.txtt5gCBlockId1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtt5gCBlockId1.Margin = new System.Windows.Forms.Padding(2);
             this.txtt5gCBlockId1.Name = "txtt5gCBlockId1";
             this.txtt5gCBlockId1.Size = new System.Drawing.Size(52, 20);
             this.txtt5gCBlockId1.TabIndex = 90;
@@ -1142,7 +1142,7 @@
             // btnt5gCMine1
             // 
             this.btnt5gCMine1.Location = new System.Drawing.Point(380, 270);
-            this.btnt5gCMine1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnt5gCMine1.Margin = new System.Windows.Forms.Padding(2);
             this.btnt5gCMine1.Name = "btnt5gCMine1";
             this.btnt5gCMine1.Size = new System.Drawing.Size(50, 20);
             this.btnt5gCMine1.TabIndex = 88;
@@ -1153,7 +1153,7 @@
             // txtt5gCHash1
             // 
             this.txtt5gCHash1.Location = new System.Drawing.Point(6, 248);
-            this.txtt5gCHash1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtt5gCHash1.Margin = new System.Windows.Forms.Padding(2);
             this.txtt5gCHash1.Name = "txtt5gCHash1";
             this.txtt5gCHash1.Size = new System.Drawing.Size(427, 20);
             this.txtt5gCHash1.TabIndex = 87;
@@ -1172,7 +1172,7 @@
             // txtt5gCData1
             // 
             this.txtt5gCData1.Location = new System.Drawing.Point(6, 96);
-            this.txtt5gCData1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtt5gCData1.Margin = new System.Windows.Forms.Padding(2);
             this.txtt5gCData1.Multiline = true;
             this.txtt5gCData1.Name = "txtt5gCData1";
             this.txtt5gCData1.Size = new System.Drawing.Size(427, 102);
@@ -1193,11 +1193,11 @@
             // txtt5gCNonce1
             // 
             this.txtt5gCNonce1.Location = new System.Drawing.Point(6, 62);
-            this.txtt5gCNonce1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtt5gCNonce1.Margin = new System.Windows.Forms.Padding(2);
             this.txtt5gCNonce1.Name = "txtt5gCNonce1";
             this.txtt5gCNonce1.Size = new System.Drawing.Size(79, 20);
             this.txtt5gCNonce1.TabIndex = 83;
-            this.txtt5gCNonce1.Text = "17432";
+            this.txtt5gCNonce1.Text = "211";
             // 
             // label84
             // 
@@ -1245,9 +1245,9 @@
             this.grpB.Controls.Add(this.txtt5gBNonce1);
             this.grpB.Controls.Add(this.label69);
             this.grpB.Location = new System.Drawing.Point(1, 298);
-            this.grpB.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.grpB.Margin = new System.Windows.Forms.Padding(2);
             this.grpB.Name = "grpB";
-            this.grpB.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.grpB.Padding = new System.Windows.Forms.Padding(2);
             this.grpB.Size = new System.Drawing.Size(1308, 294);
             this.grpB.TabIndex = 115;
             this.grpB.TabStop = false;
@@ -1256,7 +1256,7 @@
             // txtt5gBPrevHash3
             // 
             this.txtt5gBPrevHash3.Location = new System.Drawing.Point(877, 214);
-            this.txtt5gBPrevHash3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtt5gBPrevHash3.Margin = new System.Windows.Forms.Padding(2);
             this.txtt5gBPrevHash3.Name = "txtt5gBPrevHash3";
             this.txtt5gBPrevHash3.Size = new System.Drawing.Size(427, 20);
             this.txtt5gBPrevHash3.TabIndex = 114;
@@ -1275,7 +1275,7 @@
             // txtt5gBBlockId3
             // 
             this.txtt5gBBlockId3.Location = new System.Drawing.Point(877, 28);
-            this.txtt5gBBlockId3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtt5gBBlockId3.Margin = new System.Windows.Forms.Padding(2);
             this.txtt5gBBlockId3.Name = "txtt5gBBlockId3";
             this.txtt5gBBlockId3.Size = new System.Drawing.Size(52, 20);
             this.txtt5gBBlockId3.TabIndex = 112;
@@ -1294,7 +1294,7 @@
             // btnt5gBMine3
             // 
             this.btnt5gBMine3.Location = new System.Drawing.Point(1252, 270);
-            this.btnt5gBMine3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnt5gBMine3.Margin = new System.Windows.Forms.Padding(2);
             this.btnt5gBMine3.Name = "btnt5gBMine3";
             this.btnt5gBMine3.Size = new System.Drawing.Size(50, 20);
             this.btnt5gBMine3.TabIndex = 110;
@@ -1305,7 +1305,7 @@
             // txtt5gBHash3
             // 
             this.txtt5gBHash3.Location = new System.Drawing.Point(877, 248);
-            this.txtt5gBHash3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtt5gBHash3.Margin = new System.Windows.Forms.Padding(2);
             this.txtt5gBHash3.Name = "txtt5gBHash3";
             this.txtt5gBHash3.Size = new System.Drawing.Size(427, 20);
             this.txtt5gBHash3.TabIndex = 109;
@@ -1324,7 +1324,7 @@
             // txtt5gBData3
             // 
             this.txtt5gBData3.Location = new System.Drawing.Point(877, 96);
-            this.txtt5gBData3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtt5gBData3.Margin = new System.Windows.Forms.Padding(2);
             this.txtt5gBData3.Multiline = true;
             this.txtt5gBData3.Name = "txtt5gBData3";
             this.txtt5gBData3.Size = new System.Drawing.Size(427, 102);
@@ -1345,11 +1345,11 @@
             // txtt5gBNonce3
             // 
             this.txtt5gBNonce3.Location = new System.Drawing.Point(877, 62);
-            this.txtt5gBNonce3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtt5gBNonce3.Margin = new System.Windows.Forms.Padding(2);
             this.txtt5gBNonce3.Name = "txtt5gBNonce3";
             this.txtt5gBNonce3.Size = new System.Drawing.Size(79, 20);
             this.txtt5gBNonce3.TabIndex = 105;
-            this.txtt5gBNonce3.Text = "95598";
+            this.txtt5gBNonce3.Text = "13328";
             // 
             // label59
             // 
@@ -1364,7 +1364,7 @@
             // txtt5gBPrevHash2
             // 
             this.txtt5gBPrevHash2.Location = new System.Drawing.Point(442, 214);
-            this.txtt5gBPrevHash2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtt5gBPrevHash2.Margin = new System.Windows.Forms.Padding(2);
             this.txtt5gBPrevHash2.Name = "txtt5gBPrevHash2";
             this.txtt5gBPrevHash2.Size = new System.Drawing.Size(427, 20);
             this.txtt5gBPrevHash2.TabIndex = 103;
@@ -1383,7 +1383,7 @@
             // txtt5gBBlockId2
             // 
             this.txtt5gBBlockId2.Location = new System.Drawing.Point(442, 28);
-            this.txtt5gBBlockId2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtt5gBBlockId2.Margin = new System.Windows.Forms.Padding(2);
             this.txtt5gBBlockId2.Name = "txtt5gBBlockId2";
             this.txtt5gBBlockId2.Size = new System.Drawing.Size(52, 20);
             this.txtt5gBBlockId2.TabIndex = 101;
@@ -1402,7 +1402,7 @@
             // btnt5gBMine2
             // 
             this.btnt5gBMine2.Location = new System.Drawing.Point(816, 270);
-            this.btnt5gBMine2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnt5gBMine2.Margin = new System.Windows.Forms.Padding(2);
             this.btnt5gBMine2.Name = "btnt5gBMine2";
             this.btnt5gBMine2.Size = new System.Drawing.Size(50, 20);
             this.btnt5gBMine2.TabIndex = 99;
@@ -1413,7 +1413,7 @@
             // txtt5gBHash2
             // 
             this.txtt5gBHash2.Location = new System.Drawing.Point(442, 248);
-            this.txtt5gBHash2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtt5gBHash2.Margin = new System.Windows.Forms.Padding(2);
             this.txtt5gBHash2.Name = "txtt5gBHash2";
             this.txtt5gBHash2.Size = new System.Drawing.Size(427, 20);
             this.txtt5gBHash2.TabIndex = 98;
@@ -1432,7 +1432,7 @@
             // txtt5gBData2
             // 
             this.txtt5gBData2.Location = new System.Drawing.Point(442, 96);
-            this.txtt5gBData2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtt5gBData2.Margin = new System.Windows.Forms.Padding(2);
             this.txtt5gBData2.Multiline = true;
             this.txtt5gBData2.Name = "txtt5gBData2";
             this.txtt5gBData2.Size = new System.Drawing.Size(427, 102);
@@ -1454,11 +1454,11 @@
             // txtt5gBNonce2
             // 
             this.txtt5gBNonce2.Location = new System.Drawing.Point(442, 62);
-            this.txtt5gBNonce2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtt5gBNonce2.Margin = new System.Windows.Forms.Padding(2);
             this.txtt5gBNonce2.Name = "txtt5gBNonce2";
             this.txtt5gBNonce2.Size = new System.Drawing.Size(79, 20);
             this.txtt5gBNonce2.TabIndex = 94;
-            this.txtt5gBNonce2.Text = "52452";
+            this.txtt5gBNonce2.Text = "1236";
             // 
             // label64
             // 
@@ -1473,7 +1473,7 @@
             // txtt5gBPrevHash1
             // 
             this.txtt5gBPrevHash1.Location = new System.Drawing.Point(6, 214);
-            this.txtt5gBPrevHash1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtt5gBPrevHash1.Margin = new System.Windows.Forms.Padding(2);
             this.txtt5gBPrevHash1.Name = "txtt5gBPrevHash1";
             this.txtt5gBPrevHash1.Size = new System.Drawing.Size(427, 20);
             this.txtt5gBPrevHash1.TabIndex = 92;
@@ -1492,7 +1492,7 @@
             // txtt5gBBlockId1
             // 
             this.txtt5gBBlockId1.Location = new System.Drawing.Point(6, 28);
-            this.txtt5gBBlockId1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtt5gBBlockId1.Margin = new System.Windows.Forms.Padding(2);
             this.txtt5gBBlockId1.Name = "txtt5gBBlockId1";
             this.txtt5gBBlockId1.Size = new System.Drawing.Size(52, 20);
             this.txtt5gBBlockId1.TabIndex = 90;
@@ -1511,7 +1511,7 @@
             // btnt5gBMine1
             // 
             this.btnt5gBMine1.Location = new System.Drawing.Point(380, 270);
-            this.btnt5gBMine1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnt5gBMine1.Margin = new System.Windows.Forms.Padding(2);
             this.btnt5gBMine1.Name = "btnt5gBMine1";
             this.btnt5gBMine1.Size = new System.Drawing.Size(50, 20);
             this.btnt5gBMine1.TabIndex = 88;
@@ -1522,7 +1522,7 @@
             // txtt5gBHash1
             // 
             this.txtt5gBHash1.Location = new System.Drawing.Point(6, 248);
-            this.txtt5gBHash1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtt5gBHash1.Margin = new System.Windows.Forms.Padding(2);
             this.txtt5gBHash1.Name = "txtt5gBHash1";
             this.txtt5gBHash1.Size = new System.Drawing.Size(427, 20);
             this.txtt5gBHash1.TabIndex = 87;
@@ -1541,7 +1541,7 @@
             // txtt5gBData1
             // 
             this.txtt5gBData1.Location = new System.Drawing.Point(6, 96);
-            this.txtt5gBData1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtt5gBData1.Margin = new System.Windows.Forms.Padding(2);
             this.txtt5gBData1.Multiline = true;
             this.txtt5gBData1.Name = "txtt5gBData1";
             this.txtt5gBData1.Size = new System.Drawing.Size(427, 102);
@@ -1562,11 +1562,11 @@
             // txtt5gBNonce1
             // 
             this.txtt5gBNonce1.Location = new System.Drawing.Point(6, 62);
-            this.txtt5gBNonce1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtt5gBNonce1.Margin = new System.Windows.Forms.Padding(2);
             this.txtt5gBNonce1.Name = "txtt5gBNonce1";
             this.txtt5gBNonce1.Size = new System.Drawing.Size(79, 20);
             this.txtt5gBNonce1.TabIndex = 83;
-            this.txtt5gBNonce1.Text = "17432";
+            this.txtt5gBNonce1.Text = "211";
             // 
             // label69
             // 
@@ -1614,9 +1614,9 @@
             this.grpA.Controls.Add(this.txtt5gANonce1);
             this.grpA.Controls.Add(this.label54);
             this.grpA.Location = new System.Drawing.Point(2, 2);
-            this.grpA.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.grpA.Margin = new System.Windows.Forms.Padding(2);
             this.grpA.Name = "grpA";
-            this.grpA.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.grpA.Padding = new System.Windows.Forms.Padding(2);
             this.grpA.Size = new System.Drawing.Size(1308, 294);
             this.grpA.TabIndex = 0;
             this.grpA.TabStop = false;
@@ -1625,7 +1625,7 @@
             // txtt5gAPrevHash3
             // 
             this.txtt5gAPrevHash3.Location = new System.Drawing.Point(877, 214);
-            this.txtt5gAPrevHash3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtt5gAPrevHash3.Margin = new System.Windows.Forms.Padding(2);
             this.txtt5gAPrevHash3.Name = "txtt5gAPrevHash3";
             this.txtt5gAPrevHash3.Size = new System.Drawing.Size(427, 20);
             this.txtt5gAPrevHash3.TabIndex = 114;
@@ -1644,7 +1644,7 @@
             // txtt5gABlockId3
             // 
             this.txtt5gABlockId3.Location = new System.Drawing.Point(877, 28);
-            this.txtt5gABlockId3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtt5gABlockId3.Margin = new System.Windows.Forms.Padding(2);
             this.txtt5gABlockId3.Name = "txtt5gABlockId3";
             this.txtt5gABlockId3.Size = new System.Drawing.Size(52, 20);
             this.txtt5gABlockId3.TabIndex = 112;
@@ -1663,7 +1663,7 @@
             // btnt5gAMine3
             // 
             this.btnt5gAMine3.Location = new System.Drawing.Point(1252, 270);
-            this.btnt5gAMine3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnt5gAMine3.Margin = new System.Windows.Forms.Padding(2);
             this.btnt5gAMine3.Name = "btnt5gAMine3";
             this.btnt5gAMine3.Size = new System.Drawing.Size(50, 20);
             this.btnt5gAMine3.TabIndex = 110;
@@ -1674,7 +1674,7 @@
             // txtt5gAHash3
             // 
             this.txtt5gAHash3.Location = new System.Drawing.Point(877, 248);
-            this.txtt5gAHash3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtt5gAHash3.Margin = new System.Windows.Forms.Padding(2);
             this.txtt5gAHash3.Name = "txtt5gAHash3";
             this.txtt5gAHash3.Size = new System.Drawing.Size(427, 20);
             this.txtt5gAHash3.TabIndex = 109;
@@ -1693,7 +1693,7 @@
             // txtt5gAData3
             // 
             this.txtt5gAData3.Location = new System.Drawing.Point(877, 96);
-            this.txtt5gAData3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtt5gAData3.Margin = new System.Windows.Forms.Padding(2);
             this.txtt5gAData3.Multiline = true;
             this.txtt5gAData3.Name = "txtt5gAData3";
             this.txtt5gAData3.Size = new System.Drawing.Size(427, 102);
@@ -1714,11 +1714,11 @@
             // txtt5gANonce3
             // 
             this.txtt5gANonce3.Location = new System.Drawing.Point(877, 62);
-            this.txtt5gANonce3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtt5gANonce3.Margin = new System.Windows.Forms.Padding(2);
             this.txtt5gANonce3.Name = "txtt5gANonce3";
             this.txtt5gANonce3.Size = new System.Drawing.Size(79, 20);
             this.txtt5gANonce3.TabIndex = 105;
-            this.txtt5gANonce3.Text = "95598";
+            this.txtt5gANonce3.Text = "13328";
             // 
             // label44
             // 
@@ -1733,7 +1733,7 @@
             // txtt5gAPrevHash2
             // 
             this.txtt5gAPrevHash2.Location = new System.Drawing.Point(442, 214);
-            this.txtt5gAPrevHash2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtt5gAPrevHash2.Margin = new System.Windows.Forms.Padding(2);
             this.txtt5gAPrevHash2.Name = "txtt5gAPrevHash2";
             this.txtt5gAPrevHash2.Size = new System.Drawing.Size(427, 20);
             this.txtt5gAPrevHash2.TabIndex = 103;
@@ -1752,7 +1752,7 @@
             // txtt5gABlockId2
             // 
             this.txtt5gABlockId2.Location = new System.Drawing.Point(442, 28);
-            this.txtt5gABlockId2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtt5gABlockId2.Margin = new System.Windows.Forms.Padding(2);
             this.txtt5gABlockId2.Name = "txtt5gABlockId2";
             this.txtt5gABlockId2.Size = new System.Drawing.Size(52, 20);
             this.txtt5gABlockId2.TabIndex = 101;
@@ -1771,7 +1771,7 @@
             // btnt5gAMine2
             // 
             this.btnt5gAMine2.Location = new System.Drawing.Point(816, 270);
-            this.btnt5gAMine2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnt5gAMine2.Margin = new System.Windows.Forms.Padding(2);
             this.btnt5gAMine2.Name = "btnt5gAMine2";
             this.btnt5gAMine2.Size = new System.Drawing.Size(50, 20);
             this.btnt5gAMine2.TabIndex = 99;
@@ -1782,7 +1782,7 @@
             // txtt5gAHash2
             // 
             this.txtt5gAHash2.Location = new System.Drawing.Point(442, 248);
-            this.txtt5gAHash2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtt5gAHash2.Margin = new System.Windows.Forms.Padding(2);
             this.txtt5gAHash2.Name = "txtt5gAHash2";
             this.txtt5gAHash2.Size = new System.Drawing.Size(427, 20);
             this.txtt5gAHash2.TabIndex = 98;
@@ -1801,7 +1801,7 @@
             // txtt5gAData2
             // 
             this.txtt5gAData2.Location = new System.Drawing.Point(442, 96);
-            this.txtt5gAData2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtt5gAData2.Margin = new System.Windows.Forms.Padding(2);
             this.txtt5gAData2.Multiline = true;
             this.txtt5gAData2.Name = "txtt5gAData2";
             this.txtt5gAData2.Size = new System.Drawing.Size(427, 102);
@@ -1823,11 +1823,11 @@
             // txtt5gANonce2
             // 
             this.txtt5gANonce2.Location = new System.Drawing.Point(442, 62);
-            this.txtt5gANonce2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtt5gANonce2.Margin = new System.Windows.Forms.Padding(2);
             this.txtt5gANonce2.Name = "txtt5gANonce2";
             this.txtt5gANonce2.Size = new System.Drawing.Size(79, 20);
             this.txtt5gANonce2.TabIndex = 94;
-            this.txtt5gANonce2.Text = "52452";
+            this.txtt5gANonce2.Text = "1236";
             // 
             // label49
             // 
@@ -1842,7 +1842,7 @@
             // txtt5gAPrevHash1
             // 
             this.txtt5gAPrevHash1.Location = new System.Drawing.Point(6, 214);
-            this.txtt5gAPrevHash1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtt5gAPrevHash1.Margin = new System.Windows.Forms.Padding(2);
             this.txtt5gAPrevHash1.Name = "txtt5gAPrevHash1";
             this.txtt5gAPrevHash1.Size = new System.Drawing.Size(427, 20);
             this.txtt5gAPrevHash1.TabIndex = 92;
@@ -1861,7 +1861,7 @@
             // txtt5gABlockId1
             // 
             this.txtt5gABlockId1.Location = new System.Drawing.Point(6, 28);
-            this.txtt5gABlockId1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtt5gABlockId1.Margin = new System.Windows.Forms.Padding(2);
             this.txtt5gABlockId1.Name = "txtt5gABlockId1";
             this.txtt5gABlockId1.Size = new System.Drawing.Size(52, 20);
             this.txtt5gABlockId1.TabIndex = 90;
@@ -1880,7 +1880,7 @@
             // btnt5gAMine1
             // 
             this.btnt5gAMine1.Location = new System.Drawing.Point(380, 270);
-            this.btnt5gAMine1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnt5gAMine1.Margin = new System.Windows.Forms.Padding(2);
             this.btnt5gAMine1.Name = "btnt5gAMine1";
             this.btnt5gAMine1.Size = new System.Drawing.Size(50, 20);
             this.btnt5gAMine1.TabIndex = 88;
@@ -1891,7 +1891,7 @@
             // txtt5gAHash1
             // 
             this.txtt5gAHash1.Location = new System.Drawing.Point(6, 248);
-            this.txtt5gAHash1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtt5gAHash1.Margin = new System.Windows.Forms.Padding(2);
             this.txtt5gAHash1.Name = "txtt5gAHash1";
             this.txtt5gAHash1.Size = new System.Drawing.Size(427, 20);
             this.txtt5gAHash1.TabIndex = 87;
@@ -1910,7 +1910,7 @@
             // txtt5gAData1
             // 
             this.txtt5gAData1.Location = new System.Drawing.Point(6, 96);
-            this.txtt5gAData1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtt5gAData1.Margin = new System.Windows.Forms.Padding(2);
             this.txtt5gAData1.Multiline = true;
             this.txtt5gAData1.Name = "txtt5gAData1";
             this.txtt5gAData1.Size = new System.Drawing.Size(427, 102);
@@ -1931,11 +1931,11 @@
             // txtt5gANonce1
             // 
             this.txtt5gANonce1.Location = new System.Drawing.Point(6, 62);
-            this.txtt5gANonce1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtt5gANonce1.Margin = new System.Windows.Forms.Padding(2);
             this.txtt5gANonce1.Name = "txtt5gANonce1";
             this.txtt5gANonce1.Size = new System.Drawing.Size(79, 20);
             this.txtt5gANonce1.TabIndex = 83;
-            this.txtt5gANonce1.Text = "17432";
+            this.txtt5gANonce1.Text = "211";
             // 
             // label54
             // 
@@ -1956,7 +1956,7 @@
             this.ClientSize = new System.Drawing.Size(962, 530);
             this.Controls.Add(this.tabControl1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.WindowsDefaultBounds;
             this.Text = "Blockchain Example";
